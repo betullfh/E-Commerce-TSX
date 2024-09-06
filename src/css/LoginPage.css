@@ -1,0 +1,39 @@
+.login
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../images/Bulutred.png");
+    background-position: left top; /* Sol üst köşeye hizalama */
+    background-repeat: no-repeat; /* Tekrar etmeyi engelle */
+    background-color: rgb(230, 213, 213);
+    background-size: cover;
+    background-size: auto 100%;
+}
+
+.login-title
+{
+    padding: 10px 20px;
+    font-size: 18px; 
+    text-align: center;
+    width: 200px;
+    border: 1px solid rgb(255, 156, 149);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgb(250, 141, 133);
+    background-color: rgb(255, 244, 243);
+    margin-bottom: 30px;
+}
+
+.to-register:active
+{
+    font-size: 17px;
+    transition: 0.6s;
+
+}
+
+.to-register:hover
+{
+    color: #777778;
+    transition: 0.6s;
+}

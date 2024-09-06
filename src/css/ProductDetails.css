@@ -1,0 +1,132 @@
+.detail-image
+{
+  width: 180px;
+  height: 250px;
+  border: 1px solid rgb(245, 30, 15);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 1px 2px 3px 4px rgb(169, 13, 2);
+}
+
+.product-details
+{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  
+  margin-top: 80px;
+
+}
+
+.detail-description
+{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 120px;
+  font-size: smaller;
+}
+
+.detail-title
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.detail-infos
+{
+    border: 1px solid rgb(245, 30, 15);
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 1px 2px 3px rgb(169, 13, 2);
+    height: 250px;
+    justify-content: space-between;
+    width: 600px;
+    flex-wrap: nowrap;
+   
+}
+
+.detail-icons
+{
+  color: rgb(94, 28, 23);
+  font-size: 25px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(253, 246, 246);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.icon:hover
+{
+  background-color: rgb(178, 154, 154);
+  transition: all 0.6s;
+}
+.icon:active
+{
+  background-color: rgb(65, 63, 63);
+  transition: all 0.6s;
+
+}
+
+
+.detail-action
+{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 140px;
+}
+
+.addtobasket
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+ 
+}
+
+
+.count
+{
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    justify-content: center;
+    align-items: center;
+    height: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.count:hover
+{
+    background-color: rgb(211, 206, 206);
+    transition: 0.5s;
+}
+
+
+.counter-button
+{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    display: flex;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background:none;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-button:active
+{
+    
+    box-shadow: 0px 0px 3px 0px gray;
+}

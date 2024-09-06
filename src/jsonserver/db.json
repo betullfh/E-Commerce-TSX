@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "85339",
+      "username": "betul",
+      "password": "btl",
+      "balance": 2000
+    },
+    {
+      "id": "93578",
+      "username": "talha",
+      "password": "2",
+      "balance": 2000
+    },
+    {
+      "id": "73902",
+      "username": "talha",
+      "password": "turan",
+      "balance": 2000
+    },
+    {
+      "id": "34030",
+      "username": "ayfer",
+      "password": "24",
+      "balance": 2000
+    },
+    {
+      "id": "20891",
+      "username": "serhat",
+      "password": "123",
+      "balance": 2000
+    },
+    {
+      "id": "58953",
+      "username": "serhat",
+      "password": "246",
+      "balance": 2000
+    },
+    {
+      "id": "18689",
+      "username": "serhat",
+      "password": "246",
+      "balance": 2000
+    },
+    {
+      "id": "13664",
+      "username": "serhat",
+      "password": "btl",
+      "balance": 2000
+    },
+    {
+      "id": "69942",
+      "username": "serhat",
+      "password": "btl",
+      "balance": 2000
+    }
+  ]
+}
